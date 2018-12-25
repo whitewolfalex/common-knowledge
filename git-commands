@@ -1,0 +1,40 @@
+#Configure account
+  git config global user.name "Alex"
+  git config global user.email alex@email
+
+
+#Initialize a repository
+  git init
+
+
+#Cloning a repository to local storage
+  git clone /path/to/repository . ( the dot is current directory )
+  or
+  git clone username@host:/path/to/repository
+
+
+#Add one or more files to staging 
+  git add .
+  or
+  git add --all
+  or
+  git add *
+  or
+  git add <file_name>
+  
+  
+#Commiting added files
+  git commit -a
+  or
+  git commit -m " your commit message"
+  
+  
+#Uploading the changes you've commited
+  git push origin master
+
+
+#Connect to a remote repository
+  git remote add origin <server>
+  
+
+#List all repositories
